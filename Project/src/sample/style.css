@@ -1,0 +1,13 @@
+@font-face {
+     font-family: Roboto;
+    src: url('Roboto-Light.ttf');
+}
+
+.text {
+    -fx-font-family: Roboto;
+   -fx-font-size: 14px;
+}
+
+.label {
+    -fx-font-family: Roboto;
+}
