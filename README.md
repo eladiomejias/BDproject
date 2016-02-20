@@ -17,3 +17,17 @@ Screenshots:
 
 
 ---
+
+
+## Library
+Library is a database made with MYSQL and JavaFX application.
+This database contains all the information to control a library with their users accounts.
+In this db we are using:
+
+1. Users / Socios
+2. Books / Libros
+3. Loans / Prestamos
+
+Screenshots:
+
+![alt text](https://raw.githubusercontent.com/eladiomejias/Database/master/Image/Screen.jpg "Logo")
