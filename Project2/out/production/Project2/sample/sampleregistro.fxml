@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="332.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerRegistro">
+   <children>
+      <JFXButton fx:id="btnsocios" buttonType="RAISED" layoutX="131.0" layoutY="32.0" prefHeight="39.0" prefWidth="124.0" style="-fx-background-color: #2196F3;" text="socios" textFill="WHITE" />
+      <JFXButton fx:id="btnlibros" buttonType="RAISED" layoutX="131.0" layoutY="95.0" prefHeight="39.0" prefWidth="124.0" style="-fx-background-color: #2196F3;" text="libros" textFill="WHITE" />
+      <JFXButton fx:id="btnprestamos" buttonType="RAISED" layoutX="131.0" layoutY="166.0" prefHeight="39.0" prefWidth="124.0" style="-fx-background-color: #2196F3 #2196F3;" text="prestamos" textFill="WHITE" />
+      <JFXButton fx:id="btncancel" buttonType="RAISED" layoutX="131.0" layoutY="273.0" onAction="#handlebutton" prefHeight="39.0" prefWidth="124.0" style="-fx-background-color: #E53935;" text="cancel" textFill="WHITE" />
+   </children>
+</Pane>

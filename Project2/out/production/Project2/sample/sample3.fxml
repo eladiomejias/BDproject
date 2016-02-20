@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="310.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller3">
+   <children>
+      <JFXTextField fx:id="titulo" labelFloat="true" layoutX="26.0" layoutY="36.0" maxWidth="341.0" minWidth="137.0" prefHeight="31.0" prefWidth="341.0" promptText="Titulo" />
+      <JFXTextField fx:id="editorial" labelFloat="true" layoutX="194.0" layoutY="97.0" maxWidth="225.0" minWidth="144.0" prefHeight="31.0" prefWidth="168.0" promptText="Editorial" />
+      <JFXTextField fx:id="añoedicion" labelFloat="true" layoutX="26.0" layoutY="97.0" maxWidth="219.0" minWidth="161.0" prefHeight="31.0" prefWidth="161.0" promptText="Año edicion" />
+      <JFXTextField fx:id="autor" labelFloat="true" layoutX="23.0" layoutY="147.0" maxWidth="225.0" minWidth="161.0" prefHeight="31.0" prefWidth="225.0" promptText="Autor" />
+      <JFXButton fx:id="btn4" buttonType="RAISED" layoutX="280.0" layoutY="265.0" onAction="#handlebutton" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #AA00FF;" text="añadir" textFill="WHITE" />
+      <JFXTabPane layoutX="221.0" layoutY="185.0" prefHeight="48.0" prefWidth="113.0" />
+      <JFXTextField fx:id="isbn" labelFloat="true" layoutX="26.0" layoutY="202.0" maxWidth="219.0" minWidth="161.0" prefHeight="31.0" prefWidth="219.0" promptText="ISBN" />
+      <JFXCheckBox fx:id="deterioro" checkedColor="#6185c3" layoutX="323.0" layoutY="151.0" prefHeight="20.0" prefWidth="41.0" />
+      <JFXButton fx:id="btncancel" buttonType="RAISED" layoutX="187.0" layoutY="265.0" onAction="#handlebutton" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #E53935;" text="cancelar" textFill="WHITE" />
+      <Label layoutX="264.0" layoutY="153.0" text="Deterioro" textFill="#979191">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="año" labelFloat="true" layoutX="26.0" layoutY="258.0" maxWidth="219.0" minWidth="113.0" prefHeight="31.0" prefWidth="113.0" promptText="Año" />
+   </children>
+</Pane>

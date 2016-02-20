@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="226.0" prefWidth="333.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DeletePrestamo">
+   <children>
+      <JFXTextField fx:id="idprestamo" labelFloat="true" layoutX="16.0" layoutY="46.0" maxWidth="293.0" minWidth="261.0" prefHeight="31.0" prefWidth="293.0" promptText="Prestamo" />
+      <JFXButton fx:id="btndelete" buttonType="RAISED" layoutX="167.0" layoutY="145.0" prefHeight="50.0" prefWidth="124.0" style="-fx-background-color: #B71C1C;" text="borrar" textFill="WHITE" />
+      <JFXButton fx:id="btncancel" buttonType="RAISED" layoutX="34.0" layoutY="151.0" onAction="#handlebutton" prefHeight="39.0" prefWidth="124.0" style="-fx-background-color: #E53935;" text="cancelar" textFill="WHITE" />
+      <Label layoutX="22.0" layoutY="84.0" prefHeight="50.0" prefWidth="272.0" text="Nota:  El registro se borrará completamente de la base de datos." textFill="#656565" wrapText="true" />
+   </children>
+</Pane>

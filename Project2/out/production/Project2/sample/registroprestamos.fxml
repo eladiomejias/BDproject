@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="838.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegistroLibros">
+   <children>
+      <TableView fx:id="tableView" layoutX="22.0" layoutY="33.0" prefHeight="298.0" prefWidth="787.0">
+         <columns>
+            <TableColumn fx:id="isbn" prefWidth="129.0" text="ISBN" />
+            <TableColumn fx:id="titulo" prefWidth="120.0" text="Titulo" />
+            <TableColumn fx:id="editorial" prefWidth="138.0" text="Editorial" />
+            <TableColumn fx:id="autor" prefWidth="131.0" text="Autor" />
+            <TableColumn fx:id="deterioro" prefWidth="76.0" text="Deterioro" />
+            <TableColumn fx:id="añoedicion" prefWidth="109.0" text="Año  Edicion" />
+            <TableColumn fx:id="año" prefWidth="83.0" text="Año" />
+         </columns>
+      </TableView>
+      <JFXButton fx:id="btnok" buttonType="RAISED" layoutX="685.0" layoutY="361.0" onAction="#handlebutton" prefHeight="39.0" prefWidth="124.0" style="-fx-background-color: #E53935;" text="ok" textFill="WHITE" />
+   </children>
+</Pane>

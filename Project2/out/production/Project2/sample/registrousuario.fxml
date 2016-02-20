@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="394.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegistroUsuarioCont">
+   <children>
+      <TableView fx:id="tableView" layoutX="22.0" layoutY="33.0" prefHeight="298.0" prefWidth="612.0" styleClass="table" stylesheets="@resources/style.css">
+         <columns>
+            <TableColumn fx:id="idSocios" prefWidth="70.0" text="idSocios" />
+            <TableColumn fx:id="nombre" prefWidth="110.0" text="Nombre" />
+            <TableColumn fx:id="apellido" prefWidth="117.0" text="Apellido" />
+            <TableColumn fx:id="cedula" prefWidth="98.0" text="Cedula" />
+            <TableColumn fx:id="telefono" prefWidth="86.0" text="Telefono" />
+            <TableColumn fx:id="direccion" prefWidth="130.0" text="Direccion" />
+         </columns>
+      </TableView>
+      <JFXButton buttonType="RAISED" layoutX="535.0" layoutY="344.0" onAction="#handlebutton" prefHeight="41.0" prefWidth="93.0" style="-fx-background-color: #E53935;" text="ok" textFill="WHITE" />
+   </children>
+</Pane>
