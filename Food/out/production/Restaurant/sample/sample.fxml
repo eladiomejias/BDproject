@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="501.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="83.0" prefWidth="501.0" style="-fx-background-color: #FF5252;" styleClass="pane-top" stylesheets="@resources/style.css" />
+      <Pane layoutX="40.0" layoutY="99.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="339.0" prefWidth="421.0" style="-fx-background-color: white;" styleClass="material" stylesheets="@resources/style.css">
+         <children>
+            <Accordion layoutX="-42.0" layoutY="-96.0" />
+            <JFXButton fx:id="btnempleado" buttonType="RAISED" layoutX="37.0" layoutY="31.0" prefHeight="45.0" prefWidth="148.0" style="-fx-background-color: #3f51b5;" styleClass="text" text="añadir empleado" textFill="#e4e4e4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btncocinero" buttonType="RAISED" layoutX="37.0" layoutY="87.0" prefHeight="45.0" prefWidth="148.0" style="-fx-background-color: #3f51b5;" styleClass="text" text="añadir cocinero" textFill="#e4e4e4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnplato" buttonType="RAISED" layoutX="37.0" layoutY="209.0" prefHeight="45.0" prefWidth="148.0" style="-fx-background-color: #F44336;" styleClass="text" text="añadir plato" textFill="#fff3f3">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnauxiliar" buttonType="RAISED" layoutX="37.0" layoutY="147.0" prefHeight="45.0" prefWidth="148.0" style="-fx-background-color: #3f51b5;" styleClass="text" text="añadir auxiliar" textFill="#e4e4e4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btningrediente" buttonType="RAISED" layoutX="37.0" layoutY="274.0" prefHeight="45.0" prefWidth="148.0" style="-fx-background-color: #F44336;" styleClass="text" text="añadir ingrediente" textFill="#fff3f3">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnrelacion1" buttonType="RAISED" layoutX="230.0" layoutY="31.0" prefHeight="45.0" prefWidth="148.0" style="-fx-background-color: #2196F3;" styleClass="text" text="cocineros - platos" textFill="#fff3f3">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnrelacion2" buttonType="RAISED" layoutX="230.0" layoutY="87.0" prefHeight="45.0" prefWidth="148.0" style="-fx-background-color: #2196F3;" styleClass="text" text="platos - ingredientes" textFill="#fff3f3">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</Pane>
