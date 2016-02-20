@@ -12,8 +12,6 @@ Esta base de datos es creada para mantener el control de una empresa de comida d
 
 Screenshots:
 
-https://raw.githubusercontent.com/eladiomejias/Database/master/Image/ScreenOne.jpg
-
 ![alt text](https://raw.githubusercontent.com/eladiomejias/Database/master/Image/ScreenOne.jpg "Logo")
 
 
