@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="709.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuIngrediente">
+   <children>
+      <JFXTextField fx:id="nombreIng" labelFloat="true" layoutX="26.0" layoutY="62.0" maxWidth="299.0" minWidth="137.0" prefHeight="31.0" prefWidth="223.0" promptText="Nombre" />
+      <JFXTextField fx:id="cantidadIng" labelFloat="true" layoutX="27.0" layoutY="110.0" maxWidth="219.0" minWidth="161.0" prefHeight="31.0" prefWidth="176.0" promptText="Cantidad" />
+      <TableView fx:id="Ingrediente" layoutX="267.0" layoutY="35.0" prefHeight="498.0" prefWidth="388.0">
+         <columns>
+            <TableColumn fx:id="nombreIngrediente" prefWidth="155.0" text="Nombre Ingrediente" />
+            <TableColumn fx:id="cantidadIngrediente" prefWidth="96.0" text="Cantidad (kg)" />
+            <TableColumn fx:id="dpIngrediente" prefWidth="44.0" text="DP" />
+            <TableColumn fx:id="dsIngrediente" prefWidth="42.0" text="DS" />
+            <TableColumn fx:id="cfIngrediente" prefWidth="49.0" text="CF" />
+         </columns>
+      </TableView>
+      <Label layoutX="93.0" layoutY="14.0" prefHeight="31.0" prefWidth="115.0" text="Agregar Ingrediente" />
+      <Separator layoutX="16.0" layoutY="227.0" prefHeight="31.0" prefWidth="242.0" />
+      <JFXButton fx:id="btnañadir" buttonType="RAISED" layoutX="176.0" layoutY="192.0" prefHeight="31.0" prefWidth="68.0" ripplerFill="WHITE" style="-fx-background-color: blue;" text="añadir" textFill="WHITE" />
+      <Label layoutX="78.0" layoutY="248.0" prefHeight="31.0" prefWidth="123.0" text="Modificar Ingrediente" />
+      <JFXTextField fx:id="nombreIng2" labelFloat="true" layoutX="29.0" layoutY="297.0" maxWidth="216.0" minWidth="54.0" prefHeight="31.0" prefWidth="216.0" promptText="Nombre Ing" />
+      <JFXButton fx:id="btneliminar" buttonType="RAISED" layoutX="26.0" layoutY="493.0" prefHeight="31.0" prefWidth="88.0" style="-fx-background-color: red;" text="eliminar" textFill="WHITE" />
+      <JFXButton fx:id="btnmodificar" buttonType="RAISED" layoutX="166.0" layoutY="493.0" prefHeight="31.0" prefWidth="88.0" ripplerFill="WHITE" style="-fx-background-color: blue;" text="modificar" textFill="WHITE" />
+      <JFXButton fx:id="btncancel" buttonType="RAISED" layoutX="19.0" layoutY="192.0" onAction="#handlebutton" prefHeight="31.0" prefWidth="81.0" style="-fx-background-color: red;" text="regresar" textFill="WHITE" />
+      <JFXButton fx:id="btnbuscar" buttonType="RAISED" layoutX="166.0" layoutY="344.0" prefHeight="31.0" prefWidth="88.0" style="-fx-background-color: skyblue;" text="buscar" textFill="WHITE" />
+      <RadioButton fx:id="dp1" layoutX="32.0" layoutY="156.0" mnemonicParsing="false" text="DP">
+         <toggleGroup>
+            <ToggleGroup fx:id="food" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="ds1" layoutX="108.0" layoutY="156.0" mnemonicParsing="false" text="DS" toggleGroup="$food" />
+      <RadioButton fx:id="cf1" layoutX="178.0" layoutY="156.0" mnemonicParsing="false" text="CF" toggleGroup="$food" />
+      <JFXTextField fx:id="cantidadIng2" labelFloat="true" layoutX="27.0" layoutY="393.0" maxWidth="219.0" minWidth="161.0" prefHeight="31.0" prefWidth="176.0" promptText="Cantidad Modificar" />
+      <RadioButton fx:id="dp2" layoutX="32.0" layoutY="448.0" mnemonicParsing="false" text="DP">
+         <toggleGroup>
+            <ToggleGroup fx:id="food2" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="ds2" layoutX="97.0" layoutY="448.0" mnemonicParsing="false" text="DS" toggleGroup="$food2" />
+      <RadioButton fx:id="cf2" layoutX="159.0" layoutY="448.0" mnemonicParsing="false" text="CF" toggleGroup="$food2" />
+   </children>
+</Pane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="709.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CocineroConPlato">
+   <children>
+      <JFXTextField fx:id="idCocinero" labelFloat="true" layoutX="27.0" layoutY="66.0" maxWidth="299.0" minWidth="137.0" prefHeight="31.0" prefWidth="223.0" promptText="id Cocinero" />
+      <JFXTextField fx:id="nombrePlato" labelFloat="true" layoutX="27.0" layoutY="123.0" maxWidth="219.0" minWidth="161.0" prefHeight="31.0" prefWidth="216.0" promptText="Nombre Plato" />
+      <TableView fx:id="CocineroConPlatos" layoutX="267.0" layoutY="35.0" prefHeight="521.0" prefWidth="402.0">
+         <columns>
+            <TableColumn fx:id="idCocineroTable" prefWidth="84.0" text="id Cocinero" />
+            <TableColumn fx:id="nombrePlatoTable" prefWidth="316.0" text="Nombre Plato" />
+         </columns>
+      </TableView>
+      <Label layoutX="65.0" layoutY="14.0" prefHeight="31.0" prefWidth="158.0" text="Agregatos Cocinero - Platos" />
+      <Separator layoutX="16.0" layoutY="227.0" prefHeight="31.0" prefWidth="242.0" />
+      <JFXButton fx:id="btnañadir" buttonType="RAISED" layoutX="176.0" layoutY="192.0" prefHeight="31.0" prefWidth="68.0" ripplerFill="WHITE" style="-fx-background-color: blue;" text="añadir" textFill="WHITE" />
+      <Label layoutX="49.0" layoutY="248.0" prefHeight="31.0" prefWidth="152.0" text="Modificar Cocinero - Platos" />
+      <JFXTextField fx:id="idCocinero2" labelFloat="true" layoutX="37.0" layoutY="417.0" maxWidth="299.0" minWidth="137.0" prefHeight="31.0" prefWidth="205.0" promptText="Nuevo id Cocinero" />
+      <JFXTextField fx:id="idCocineroBusq" labelFloat="true" layoutX="27.0" layoutY="294.0" maxWidth="216.0" minWidth="54.0" prefHeight="31.0" prefWidth="216.0" promptText="id Cocinero" />
+      <JFXButton fx:id="btneliminar" buttonType="RAISED" layoutX="21.0" layoutY="518.0" prefHeight="31.0" prefWidth="88.0" style="-fx-background-color: red;" text="eliminar" textFill="WHITE" />
+      <JFXButton fx:id="btnmodificar" buttonType="RAISED" layoutX="166.0" layoutY="518.0" prefHeight="31.0" prefWidth="88.0" ripplerFill="WHITE" style="-fx-background-color: blue;" text="modificar" textFill="WHITE" />
+      <JFXButton fx:id="btncancel" buttonType="RAISED" layoutX="19.0" layoutY="192.0" onAction="#handlebutton" prefHeight="31.0" prefWidth="81.0" style="-fx-background-color: red;" text="regresar" textFill="WHITE" />
+      <JFXButton fx:id="btnbuscar" buttonType="RAISED" layoutX="157.0" layoutY="379.0" prefHeight="31.0" prefWidth="88.0" style="-fx-background-color: skyblue;" text="buscar" textFill="WHITE" />
+      <JFXTextField fx:id="nombrePlatoBusq" labelFloat="true" layoutX="31.0" layoutY="337.0" maxWidth="219.0" minWidth="161.0" prefHeight="31.0" prefWidth="216.0" promptText="Nombre Plato modificar" />
+      <JFXTextField fx:id="nombrePlato2" labelFloat="true" layoutX="36.0" layoutY="468.0" maxWidth="219.0" minWidth="161.0" prefHeight="31.0" prefWidth="216.0" promptText="Nuevo nombre plato" />
+   </children>
+</Pane>

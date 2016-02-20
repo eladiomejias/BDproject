@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="495.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuEmpleados">
+   <children>
+      <JFXTextField fx:id="nombre" labelFloat="true" layoutX="25.0" layoutY="80.0" maxWidth="299.0" minWidth="137.0" prefHeight="31.0" prefWidth="223.0" promptText="Nombre" />
+      <JFXTextField fx:id="telefono" labelFloat="true" layoutX="25.0" layoutY="142.0" maxWidth="219.0" minWidth="161.0" prefHeight="31.0" prefWidth="216.0" promptText="Teléfono" />
+      <TableView fx:id="Empleados" layoutX="267.0" layoutY="35.0" prefHeight="442.0" prefWidth="402.0">
+        <columns>
+          <TableColumn fx:id="idtable" prefWidth="49.0" text="id" />
+          <TableColumn fx:id="nombretable" prefWidth="191.0" text="Nombre" />
+            <TableColumn fx:id="telefonotable" prefWidth="167.0" text="Telefono" />
+        </columns>
+      </TableView>
+      <Label layoutX="89.0" layoutY="20.0" prefHeight="31.0" prefWidth="102.0" text="Agregar Empleado" />
+      <Separator layoutX="16.0" layoutY="227.0" prefHeight="31.0" prefWidth="242.0" />
+      <JFXButton fx:id="btnañadir" buttonType="RAISED" layoutX="176.0" layoutY="192.0" prefHeight="31.0" prefWidth="68.0" ripplerFill="WHITE" style="-fx-background-color: blue;" text="añadir" textFill="WHITE" />
+      <Label layoutX="86.0" layoutY="248.0" prefHeight="31.0" prefWidth="115.0" text="Modificar Empleado" />
+      <JFXTextField fx:id="nombre2" labelFloat="true" layoutX="32.0" layoutY="395.0" maxWidth="299.0" minWidth="137.0" prefHeight="31.0" prefWidth="223.0" promptText="Nombre para modificar" />
+      <JFXTextField fx:id="telefono2" labelFloat="true" layoutX="32.0" layoutY="450.0" maxWidth="219.0" minWidth="161.0" prefHeight="31.0" prefWidth="216.0" promptText="Teléfono para modificar" />
+      <JFXTextField fx:id="id" labelFloat="true" layoutX="46.0" layoutY="290.0" maxWidth="81.0" minWidth="54.0" prefHeight="31.0" prefWidth="81.0" promptText="Id" />
+      <JFXButton fx:id="btneliminar" buttonType="RAISED" layoutX="171.0" layoutY="290.0" prefHeight="31.0" prefWidth="81.0" style="-fx-background-color: red;" text="eliminar" textFill="WHITE" />
+      <JFXButton fx:id="btnmodificar" buttonType="RAISED" layoutX="168.0" layoutY="332.0" prefHeight="31.0" prefWidth="88.0" ripplerFill="WHITE" style="-fx-background-color: blue;" text="modificar" textFill="WHITE" />
+      <JFXButton fx:id="btncancel" buttonType="RAISED" layoutX="19.0" layoutY="192.0" onAction="#handlebutton" prefHeight="31.0" prefWidth="81.0" style="-fx-background-color: red;" text="regresar" textFill="WHITE" />
+      <JFXButton fx:id="btnbuscar" buttonType="RAISED" layoutX="53.0" layoutY="332.0" prefHeight="31.0" prefWidth="68.0" style="-fx-background-color: skyblue;" text="buscar" textFill="WHITE" />
+   </children>
+</Pane>
