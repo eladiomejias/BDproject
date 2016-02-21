@@ -24,9 +24,9 @@ Library is a database made with MYSQL and JavaFX application.
 This database contains all the information to control a library with their users accounts.
 In this db we are using:
 
-1. Users / Socios
-2. Books / Libros
-3. Loans / Prestamos
+1. Users / Socios :couple:
+2. Books / Libros :notebook_with_decorative_cover:
+3. Loans / Prestamos :books:
 
 Screenshots:
 
