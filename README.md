@@ -1,29 +1,33 @@
-# Python 
+# Database
+#### This repo contains all the Database projects I have made for my Database course
 
-## In this repo are some Python codes that I made - collaborate with Python 2.7 / Python 3.2 :snake:
+## Food
+Food is a database made with MYSQL and JavaFX application.
+Esta base de datos es creada para mantener el control de una empresa de comida donde actuan:
 
----
+1. Empleados (Cocineros y Auxiliares) :guardsman:
+2. Platos :spaghetti:
+3. Ingredientes :corn:
+4. Proceso de relaciones de entidades :pizza:
 
-### Backtracking Password with GUI
+Screenshots:
 
-This Python program is based on a backtrack method to get the numeric password from a RAR archive.
-*Note: The password number only can be in the (0 - 9999) numeric interval.*
+![alt text](https://raw.githubusercontent.com/eladiomejias/Database/master/Image/ScreenOne.jpg "Logo")
 
----
-
-### Tree 
-
-Python code to write and read a "tree" on the differents ways
-
----
-
-### Encriptado Archivo / POO
-
-Python code to encrypt any text using the Cesar's Method
 
 
 ---
 
-### Recursividad
 
-Simple codes to learn the recursivity in python.
+## Library
+Library is a database made with MYSQL and JavaFX application.
+This database contains all the information to control a library with their users accounts.
+In this db we are using:
+
+1. Users / Socios
+2. Books / Libros
+3. Loans / Prestamos
+
+Screenshots:
+
+![alt text](https://raw.githubusercontent.com/eladiomejias/Database/master/Image/Screen.jpg "Logo")
