@@ -1,5 +1,5 @@
 # Database
-####Database projects I have made for my Database course
+####Database projects made in MySQL
 
 ## Food
 Food is a database made with MYSQL and JavaFX application.
