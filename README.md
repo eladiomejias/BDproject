@@ -1,5 +1,5 @@
 # Database
-#### This repo contains all the Database projects I have made for my Database course
+####Database projects I have made for my Database course
 
 ## Food
 Food is a database made with MYSQL and JavaFX application.
